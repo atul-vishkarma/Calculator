@@ -7,7 +7,8 @@ import java.awt.event.ActionListener;
 public class Calculator {
     public JFrame frame;
     public JTextField textField;
-    public double first, second, result;
+    public double result;
+    public int first, second;
     String operation, answer;
 
     public static void main(String[] args) {
