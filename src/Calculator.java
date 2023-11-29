@@ -73,7 +73,7 @@ public class Calculator {
             @Override
             public void actionPerformed(ActionEvent e) {
                 try {
-                    first = Double.parseDouble(textField.getText());
+                    first = Integer.parseInt(textField.getText());
                     textField.setText("");
                     operation = "%";
 
@@ -117,7 +117,7 @@ public class Calculator {
             @Override
             public void actionPerformed(ActionEvent e) {
                 try {
-                    first = Double.parseDouble(textField.getText());
+                    first = Integer.parseInt(textField.getText());
                     textField.setText("");
                     operation = "/";
                 } catch (Exception e1) {
@@ -188,7 +188,7 @@ public class Calculator {
             @Override
             public void actionPerformed(ActionEvent e) {
                 try {
-                    first = Double.parseDouble(textField.getText());
+                    first = Integer.parseInt(textField.getText());
                     textField.setText("");
                     operation = "x";
                 } catch (Exception e1) {
@@ -248,7 +248,7 @@ public class Calculator {
             @Override
             public void actionPerformed(ActionEvent e) {
                 try {
-                    first = Double.parseDouble(textField.getText());
+                    first = Integer.parseInt(textField.getText());
                     textField.setText("");
                     operation = "-";
                 } catch (Exception e1) {
@@ -309,7 +309,7 @@ public class Calculator {
             @Override
             public void actionPerformed(ActionEvent e) {
                 try {
-                    first = Double.parseDouble(textField.getText());
+                    first = Integer.parseInt(textField.getText());
                     textField.setText("");
                     operation = "+";
                 } catch (Exception e1) {
@@ -356,7 +356,7 @@ public class Calculator {
             @Override
             public void actionPerformed(ActionEvent e) {
                 try {
-                    second = Double.parseDouble(textField.getText());
+                    second = Integer.parseInt(textField.getText());
                     switch (operation) {
 
                         case "+":
